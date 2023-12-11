@@ -48,6 +48,7 @@ body{
     background-image: url(https://kalix.club/uploads/posts/2022-12/1671684387_kalix-club-p-zadnii-fon-svetlii-pinterest-2.jpg);
     background-size: cover;
     background-attachment: fixed;
+    font-weight: 700;
 }
 .ikonka img{
     width: 110px;
@@ -131,6 +132,7 @@ body{
     left: 0;
     width: 1833px;
     height: 1150px;
+    margin-top: -70px;
     color: white;
     align-items: center;
     text-align: center;
@@ -429,7 +431,7 @@ main{
     border-radius: 30px;
     padding-right: 40px;
     padding-bottom: 20px;
-    background-color: #95E1F9;
+    background-color: rgb(34, 174, 255);
 }
 
 .paidEdu{
@@ -438,7 +440,8 @@ main{
     border-radius: 30px;
     padding-right: 40px;
     padding-bottom: 20px;
-    background: linear-gradient(0deg, rgba(19,160,204,1) 0%, rgba(181,212,222,1) 0%, rgba(226,248,255,1) 100%);
+    background-color: white;
+    border: 5px solid rgb(34, 174, 255);
 }   
 
 
@@ -446,7 +449,7 @@ main{
     text-align: left;
     font-size: 36px;
     font-weight: 600;
-    color: #13A0CC;
+    color: white;
     margin-top: 38px;
     margin-left: 42px;
     font-family: Roboto, sans-serif;
@@ -456,17 +459,7 @@ main{
     text-align: left;
     font-size: 36px;
     font-weight: 600;
-    color: #13A0CC;
-    margin-top: 38px;
-    margin-left: 42px;
-    font-family: Roboto, sans-serif;
-}
-
-.paidEduText{
-    text-align: left;
-    font-size: 36px;
-    font-weight: 600;
-    color: #13A0CC;
+    color: rgb(34, 174, 255);
     margin-top: 38px;
     margin-left: 42px;
     font-family: Roboto, sans-serif;
@@ -483,16 +476,16 @@ main{
     font-family: Roboto, sans-serif;
     margin-top: 20px;
     margin-left: 40px;
-    background-color: #40c7f0;
+    background-color: #79e0ff;
     border-radius: 10px;
-    color: #1092b9;
+    color: #13A0CC;
     border: 0;
     cursor: pointer;
     display: block;
 }
 
 .freeEduButtonShow:hover{
-    background-color: aquamarine;
+    background-color: rgb(145, 229, 255);
 }
 
 .paidEduButtonShow{
@@ -506,16 +499,16 @@ main{
     font-family: Roboto, sans-serif;
     margin-top: 20px;
     margin-left: 40px;
-    background-color: #40c7f0;
+    background-color: #4ed6ff;
     border-radius: 10px;
-    color: #1092b9;
+    color: #13A0CC;
     border: 0;
     cursor: pointer;
     display: block;
 }
 
 .paidEduButtonShow:hover{
-    background-color: aquamarine;
+    background-color: rgb(145, 229, 255);
 }
 
 #eduFreeTextList{
@@ -616,6 +609,8 @@ main{
     display: -webkit-flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-inline-start: 300xp;
+    border: 10px solid blue;
 }
 
 .news2c{
@@ -637,8 +632,7 @@ main{
 #PhotoFrame1{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -653,8 +647,7 @@ main{
 #PhotoFrame2{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -669,8 +662,7 @@ main{
 #PhotoFrame3{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -685,8 +677,7 @@ main{
 #PhotoFrame4{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -701,8 +692,7 @@ main{
 #PhotoFrame5{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -717,8 +707,7 @@ main{
 #PhotoFrame6{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -733,8 +722,7 @@ main{
 #PhotoFrame7{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -749,8 +737,7 @@ main{
 #PhotoFrame8{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -765,8 +752,7 @@ main{
 #PhotoFrame9{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -781,8 +767,7 @@ main{
 #PhotoFrame10{
     height: 250px;
     width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
+    border: 10px solid rgb(34, 174, 255);
     background-color: white;
     margin: auto;
     border-bottom-left-radius: 30px;
@@ -798,7 +783,7 @@ main{
 #TextBack1 {
     height: 250px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -818,7 +803,7 @@ main{
 #TextBack2 {
     height: 210px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -837,7 +822,7 @@ main{
 #TextBack3 {
     height: 190px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -856,7 +841,7 @@ main{
 #TextBack4 {
     height: 210px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -876,7 +861,7 @@ main{
 #TextBack5 {
     height: 250px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -896,7 +881,7 @@ main{
 #TextBack6 {
     height: 250px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -915,7 +900,7 @@ main{
 #TextBack7 {
     height: 270px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -934,7 +919,7 @@ main{
 #TextBack8 {
     height: 240px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -953,7 +938,7 @@ main{
 #TextBack9 {
     height: 250px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -972,7 +957,7 @@ main{
 #TextBack10 {
     height: 230px;
     width: 270px;
-    background-color: #0E83A8;
+    background-color: rgb(31, 131, 167);
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
