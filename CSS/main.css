@@ -340,6 +340,8 @@ article{
 .novosti{
     padding-bottom: 150px;
     margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .novosti h2{
     color: rgb(34, 174, 255);
@@ -609,8 +611,6 @@ main{
     display: -webkit-flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-inline-start: 300xp;
-    border: 10px solid blue;
 }
 
 .news2c{
