@@ -136,7 +136,8 @@ body{
     left: 0;
     width: 1833px;
     height: 1150px;
-    margin-top: -70px;
+    
+    margin-top: -50px;
     color: white;
     align-items: center;
     text-align: center;
@@ -542,8 +543,8 @@ main{
 #eduFreeTextList{
     text-align: left;
     font-size: 36px;
-    font-weight: 600;
-    color: #13A0CC;
+    font-weight: 500;
+    color: white;
     margin-top: 10px;
     margin-left: 80px;
     font-family: Roboto, sans-serif;
